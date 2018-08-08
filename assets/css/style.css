@@ -93,7 +93,14 @@ div {
 
 footer {
     background: #666666;
-    border-top: 5px solid #4aaaa5;
+    border-top: 7px solid #4aaaa5;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding-top: 45px;
+    padding-bottom: 10px;
 }
 
 .headercontent {
