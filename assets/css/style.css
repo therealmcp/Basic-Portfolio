@@ -1,30 +1,60 @@
 body {
     background-color: #efeee7;
-    font: "Times New Roman";
-    color: #333333;
-    margin: 0;
+    background-image: url("assets\images\0F544631-.jpg") repeat;
+    font-family: "Arial";
+    color: #777777;
+    margin: auto;
     padding: 0;
 }
 
+a:link, a:visited {
+    color: #aeacb0;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+}
+
 header {
-    background-color: #333333;
+    background-color: #ffffff;
+    font-family: "Georgia, Times, Times New Roman, Serif";
+    border-bottom: 3px solid #cccccc;
 }
 
 h1 {
-    margin-bottom: 15px;
+    margin-bottom: 0px;
     font-size: 28px;
     color: #eee;
     text-align: center;
-    text-decoration: underline;
-    background-color: black;
+    background-color: #4aaaa5;
+    width: 230px;
+    padding: 20px 0 20px 0;
+    font-weight: bold;
+    position: relative;
+}
+
+nav {
+    float: right;
+    position: relative;
+    bottom: 45px;
+    display: flex;
+    font-size: 20px;
 }
 
 h2 {
     margin-top: 15px;
     margin-bottom: 15px;
     font-size: 24px;
-    text-align: center;
-    margin: 0 auto;
+    margin: 10px;
+    border-bottom: 3px solid #e1e1e1;
+    background: none;
+    color: #4aaaa5;
+    font-family: "Times New Roman";
+    font-size: 30px;
+    font-weight: bold;
+    padding: 25px;
+    padding-left: 5px;
 }
 
 h3 {
@@ -34,17 +64,19 @@ h3 {
 }
 
 #bio-image {
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
     width: 200px;
     float: left;
 }
 
 p {
-    text-align: center;
+    text-align: justify;
     font-size: 20px;
-    font-weight: bold;
+    padding: 10px;
+    margin: 10px;
+    line-height: 1.5;
 }
 
 ul {
@@ -55,11 +87,33 @@ ul {
     list-style-position: inside;
 }
 
-#main-bio {
-    float: left;
-    width: 70%;
+div {
+    background: transparent;
 }
 
-#contact-info {
-    width: 30%;
+footer {
+    background: #666666;
+    border-top: 5px solid #4aaaa5;
+}
+
+.headercontent {
+    width: 960px;
+    margin: auto;
+}
+
+.container {
+    background: #ffffff;
+    padding: 0;
+    margin: auto;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #dddddd;
+    width: 960px;
+    position: relative;
+    top: 35px
+}
+
+.about {
+    padding-left: 20px;
+    padding-right: 20px;    
 }
