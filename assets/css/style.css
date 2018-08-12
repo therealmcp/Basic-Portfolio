@@ -1,5 +1,4 @@
 body {
-    /* background-color: #efeee7; */
     background-image: url("../images/paisley.png");
     font-family: "Arial, Helvetica Neue, Helvetica, sans-serif";
     color: #777777;
@@ -57,11 +56,11 @@ h2 {
     padding-left: 5px;
 }
 
-h3 {
+/* h3 {
     margin-top: 15px;
     font-size: 20px;
     text-align: center;
-}
+} */
 
 #bio-image {
     margin-left: 20px;
@@ -85,9 +84,9 @@ p {
     list-style-position: inside;
 } */
 
-div {
+/* div {
     background: transparent;
-}
+} */
 
 footer {
     background: #666666;
@@ -126,22 +125,24 @@ footer {
     display: flex;
     flex-wrap: wrap;
     padding: 0 4px;
+    width: 100%;
 }
 
-.column {
+/* .column {
     flex: 50%;
     max-width: 50%;
     padding: 0 4px;
-}
+} */
 
-.column img {
+/* .column img {
     margin-top: 8px;
     vertical-align: middle;
     position: relative;
-}
+} */
 
 .image {
     position: relative;
+    text-align: center;
 }
 
 .about {
@@ -149,17 +150,16 @@ footer {
     padding-right: 20px;    
 }
 
-/* .text-block {
+.text-block {
     position: absolute;
-    bottom: 20px;
+    bottom: 20%;
+    width: 80%;
     background-color: #4aaaa5;
     color: #eee;
-} */
-
-/* h4 {
-    position: relative;
-
-} */
+    padding: 5px;
+    text-align: center;
+    right: 20px;
+}
 
 .form-style-1 {
     text-align: left;
@@ -168,18 +168,21 @@ footer {
     padding: 20px 12px 10px 20px;
     font: 13px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
+
 .form-style-1 li {
     padding: 0;
     display: block;
     list-style: none;
     margin: 10px 0 0 0;
 }
+
 .form-style-1 label{
     margin:0 0 3px 0;
     padding:0px;
     display:block;
     font-weight: bold;
 }
+
 .form-style-1 input[type=text], 
 .form-style-1 input[type=email],
 textarea, 
@@ -193,6 +196,7 @@ select{
     -o-transition: all 0.30s ease-in-out;
     outline: none;  
 }
+
 .form-style-1 input[type=text]:focus, 
 .form-style-1 input[type=email]:focus,
 .form-style-1 textarea:focus, 
@@ -202,6 +206,7 @@ select{
     box-shadow: 0 0 8px #88D5E9;
     border: 1px solid #88D5E9;
 }
+
 .form-style-1 .field-divided{
     width: 97%;
 }
@@ -209,18 +214,22 @@ select{
 .form-style-1 .field-long{
     width: 97%;
 }
+
 .form-style-1 .field-select{
     width: 97%;
 }
+
 .form-style-1 .field-textarea{
     height: 100px;
 }
+
 .form-style-1 input[type=submit], .form-style-1 input[type=button]{
     background: #4B99AD;
     padding: 8px 15px 8px 15px;
     border: none;
     color: #fff;
 }
+
 .form-style-1 input[type=submit]:hover, .form-style-1 input[type=button]:hover{
     background: #4691A4;
     box-shadow:none;
